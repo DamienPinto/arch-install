@@ -1,8 +1,12 @@
-# Network Configuration
+# In-Boot Actions
+
+Things done during boot that are not included in the Archwiki [installation guide's](https://wiki.archlinux.org/index.php/installation_guide) pre-installation section.
+
+## Network Configuration
 
 Network configuration during boot from live USB installation.
 
-## Create config file for WiFi adapter:
+### Create config file for WiFi adapter:
 
 The info used in steps 1 and 2 were found in Kuzeyeu Siarhei's reply to [this](https://askubuntu.com/questions/1081240/wifi-randomly-disconnects-rtl8188ee-ubuntu-18-04) askubuntu post.
 
