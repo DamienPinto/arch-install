@@ -2,7 +2,7 @@
 
 ## What is?
 
-This repository will be a recording for personal use to document my going through a fresh archlinux install on my 2015 HP Pavillion laptop. It's basically so that, if I for example ever have to do this again, I don't have to relearn how to change the config file that dictates the interactions between arch and the wifi adapter (which is not fun because apparently HP structured its wifi adapters in a way that linux hate, or vice-versa, or both). You shouldn't read into that specific example too much.
+This repository will be a recording for personal use to document my going through a fresh archlinux install on my 2015 HP Pavillion laptop. It's basically so that, if I ever have to do this again, I don't have to (for example) relearn how to change the config file that dictates the interactions between arch and the wifi adapter (which is not fun because apparently HP structured its wifi adapters in a way that linux hate, or vice-versa, or both). You shouldn't read into that specific example too much.
 
 The [Archwiki](https://wiki.archlinux.org/) already has a terrific [installation guide](https://wiki.archlinux.org/index.php/installation_guide) that will probably render the entirety of this repository at best redundant, at worst misleading, for most people. I recommend you look at that unless you have the *exact* same laptop as I do, which I really hope you don't.
 
