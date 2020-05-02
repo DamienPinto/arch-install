@@ -22,3 +22,14 @@ The info used in steps 1 and 2 were found in Kuzeyeu Siarhei's reply to [this](h
    - `iwctl station wlan0 scan`
    - `iwctl station wlan0 get-networks`
 6. If the expected networks show up: great. If not: repeat steps 2-5 with the `ant_sel` number that you haven't tried.
+
+
+## Update System Clock
+
+Updating system clock as the installation guide instructs doesn't actually give the right local time. I don't know if it's supposed to or if it's important, but here's what I need to do after entering `timedatectl set-ntp true` as the installation guide instructs.
+
+### Get correct timezone
+
+1. Use `timedatectl list-timezones` to list all available timezones. Use arrowkeys to cycle through until you find one that should give the right time.
+2. Use `timedatectl set-timezone \[TIMEZONE\]` to set that timezone.
+3. Check the time with `timedatectl status`.
