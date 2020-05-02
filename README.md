@@ -12,6 +12,6 @@ Seriously, go look at that archwiki. This will probably be mostly obvious things
 
 This doesn't require a file, just:
 - Go to [this](https://www.archlinux.org/download/) page and use the magnet link to torrent the most recent version of Arch.
-- use fdisk -l to find the name of the partition that specifies your USB.
+- Use `fdisk -l` to find the name of the partition that specifies your USB.
 - Use the instructions on [this](https://wiki.archlinux.org/index.php/USB_flash_installation_media) page to format the USB key designated by the partition name found in previous step.
 
