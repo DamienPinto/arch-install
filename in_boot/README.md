@@ -31,5 +31,5 @@ Updating system clock as the installation guide instructs doesn't actually give 
 ### Get correct timezone
 
 1. Use `timedatectl list-timezones` to list all available timezones. Use arrowkeys to cycle through until you find one that should give the right time.
-2. Use `timedatectl set-timezone \[TIMEZONE\]` to set that timezone.
+2. Use `timedatectl set-timezone [TIMEZONE]` to set that timezone.
 3. Check the time with `timedatectl status`.
